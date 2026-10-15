@@ -1,0 +1,30 @@
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local environments and secrets
+.venv/
+venv/
+.env
+
+# Large geospatial data
+*.tif
+*.tiff
+*.img
+*.vrt
+*.jp2
+
+# Temporary Inspection files
+*.tmp
+.joblib
+.DS_Store
+Thumbs.db
+inspect_notebooks.py
+notebook_summary.txt
+
+#Data Given is confidential
+Data/
